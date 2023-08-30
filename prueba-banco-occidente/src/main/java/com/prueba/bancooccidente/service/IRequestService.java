@@ -1,5 +1,9 @@
 package com.prueba.bancooccidente.service;
 
-public class IRequestService {
+import com.prueba.bancooccidente.dto.RequestDTO;
+import com.prueba.bancooccidente.dto.ResponseDTO;
 
+public interface IRequestService {
+	
+	ResponseDTO grupoAutobus (RequestDTO request);
 }

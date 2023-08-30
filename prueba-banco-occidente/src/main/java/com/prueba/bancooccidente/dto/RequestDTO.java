@@ -2,14 +2,16 @@ package com.prueba.bancooccidente.dto;
 
 public class RequestDTO {
 	
-	private Integer groups;
+	private String groups;
 
-	public Integer getGroups() {
-		return groups;
+	public String[] getGroups() {
+		return groups.split(",");
 	}
 
-	public void setGroups(Integer groups) {
+	public void setGroups(String groups) {
 		this.groups = groups;
 	}
+
+	
 
 }
