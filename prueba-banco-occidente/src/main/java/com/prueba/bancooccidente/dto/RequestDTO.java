@@ -1,4 +1,4 @@
-package com.prueba.banco.occidente.dto;
+package com.prueba.bancooccidente.dto;
 
 public class RequestDTO {
 	
