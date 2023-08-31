@@ -34,8 +34,7 @@ public class StreamLambdaHandler implements RequestStreamHandler{
 
 	@Override
 	public void handleRequest(InputStream input, OutputStream output, Context context) throws IOException {
-		// TODO Auto-generated method stub
-		
+		handler.proxyStream(input, output, context);
 	}
 
 }
